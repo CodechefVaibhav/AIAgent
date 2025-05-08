@@ -144,15 +144,15 @@ streamlit
 ## 🐾 Log Trace
 
 Sample Logs:
-[User Input] How is the weather in Cape Town in July?
-[Perception] Parsed city: cape town, month: july
-[MCP Lookup] Tool ID selected: context:tool:get_monthly_weather
-[MCP Resolution] Resolved endpoint: http://localhost:8000/weather/monthly, method: GET
-[Tool Request] Params: {'city': 'cape town', 'month': 'july'}
-[Weather Agent] Received monthly weather request for city: cape town, month: july
-[Monthly Weather] Fetching weather for: cape town in july
-[Monthly Weather] Avg Temp: 15.6, Common: Partly Cloudy
-[Tool Response] Status: 200
+- [User Input] How is the weather in Cape Town in July?
+- [Perception] Parsed city: cape town, month: july
+- [MCP Lookup] Tool ID selected: context:tool:get_monthly_weather
+- [MCP Resolution] Resolved endpoint: http://localhost:8000/weather/monthly, method: GET
+- [Tool Request] Params: {'city': 'cape town', 'month': 'july'}
+- [Weather Agent] Received monthly weather request for city: cape town, month: july
+- [Monthly Weather] Fetching weather for: cape town in july
+- [Monthly Weather] Avg Temp: 15.6, Common: Partly Cloudy
+- [Tool Response] Status: 200
 
 ## 💉 CURL
 Curl for registering Node:
