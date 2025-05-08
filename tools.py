@@ -9,8 +9,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-OPENWEATHER_KEY = "d1cc89983d6bffa5b465c508cdb9506a"
-VISUALCROSSING_KEY = "4UNNX8P9CKVBGYAT9NJ8W4YM9"
+OPENWEATHER_KEY = "YOURTOKEN"
+VISUALCROSSING_KEY = "YOURTOKEN"
 
 def tool_get_live_weather(city):
     try:
