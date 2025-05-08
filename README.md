@@ -49,8 +49,6 @@ weather-agent-mcp/
 ├── welcome.py               # Streamlit UI client
 ├── mcp_server.py            # MCP registry server
 ├── register_tools.py        # Tool registration script
-├── Dockerfile               # [NEW] Docker support
-├── docker-compose.yml       # [NEW] Multi-service runner
 ├── requirements.txt         # Python dependencies
 └── README.md                # You're reading it 🙂
 ```
@@ -178,7 +176,7 @@ curl -X POST http://localhost:8100/register \
 
 ## 📃 License
 
-MIT © 2025 [Vaibhav Kashyap](https://github.com/your-handle)
+MIT © 2025 [Vaibhav Kashyap]
 
 ```
 
@@ -187,5 +185,5 @@ MIT © 2025 [Vaibhav Kashyap](https://github.com/your-handle)
 ### ✅ Also includes:
 
 - `Dockerfile` for MCP + weather agent
-- `docker-compose.yml` to run it all together (can be generated on request)
+- `docker-compose.yml` to run it all together 
 ```
