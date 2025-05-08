@@ -60,19 +60,16 @@ weather-agent-mcp/
 ### ▶️ Option 1: Run Locally (Manual)
 
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Run MCP server (port 8100)
+# 1. Run MCP server (port 8100)
 uvicorn mcp_server:app --reload --port 8100
 
-# 3. Run weather agent (port 8000)
+# 2. Run weather agent (port 8000)
 uvicorn weather_agent:app --reload --port 8000
 
-# 4. Register tools
+# 3. Register tools
 python register_tools.py
 
-# 5. Launch UI
+# 4. Launch UI
 streamlit run welcome.py
 ```
 
